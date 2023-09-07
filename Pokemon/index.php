@@ -45,7 +45,7 @@
             {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo '<tr><th scope="row">' . $row["id"]. "</th><td>" . $row["nom"]. "</td><td>" . $row["type"]. "</td><td>" . $row["stade d'évolution"]. '</td><td><img src="' . $row["image"]. '"alt="'.$row["nom"].'"></td></tr>';
+                    echo '<tr><th scope="row">' . $row["id"]. "</th><td>" . $row["nom"]. "</td><td>" . $row["type"]. "</td><td>" . $row["evolution"]. '</td><td><img src="' . $row["image"]. '"alt="'.$row["nom"].'"></td></tr>';
                 }
             }
             else
@@ -53,9 +53,9 @@
                 echo "0 result";
             }
             $conn->close();
-
+            
         ?>
-
+        
     </tbody>
     </table>
     <a href="ajouter.php"><button style="background: rgba(255,255,255,0.2); color: white; width: 200px; height: 50px; font-size: 18pt">Ajouter</button></a>
