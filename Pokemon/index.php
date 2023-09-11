@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body style="background: #343a40">
     
@@ -58,6 +59,6 @@
         
     </tbody>
     </table>
-    <a href="ajouter.php"><button style="background: rgba(255,255,255,0.2); color: white; width: 200px; height: 50px; font-size: 18pt">Ajouter</button></a>
+    <a href="ajouter.php"><button class="btn button">Ajouter</button></a>
 </body>
 </html>

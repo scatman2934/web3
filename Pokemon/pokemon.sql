@@ -30,7 +30,7 @@ CREATE TABLE `pokemon` (
   `id` int(4) NOT NULL,
   `nom` varchar(32) NOT NULL,
   `type` varchar(32) NOT NULL,
-  `stade d'évolution` int(3) NOT NULL,
+  `evolution` int(3) NOT NULL,
   `image` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
@@ -38,7 +38,7 @@ CREATE TABLE `pokemon` (
 -- Contenu de la table `pokemon`
 --
 
-INSERT INTO `pokemon` (`id`, `nom`, `type`, `stade d'évolution`, `image`) VALUES
+INSERT INTO `pokemon` (`id`, `nom`, `type`, `evolution`, `image`) VALUES
 (1, 'Bulbasaur', 'Grass', 1, 'https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png'),
 (2, 'Ivysaur', 'Grass', 2, 'https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png'),
 (3, 'Venusaur', 'Grass', 3, 'https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png'),
